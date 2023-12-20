@@ -3,11 +3,15 @@ Changes, rewriting of text, and other forms of improvements will be made for thi
 
 | Syscall ID | PS4 Firmware | Syscall Name | Syscall Usermode prototype | Notes |
 | --- | --- | --- | --- | --- |
-| 99 |  <=1.01? | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
-| 101 | <=1.01? | sys\_netabort | \- | \- |
-| 102 | <=1.01? | sys\_netgetsockinfo | \- | \- |
-| 113 | <=1.01? | sys\_socketex | int sys\_socketex(const char \*name, int domain, int type, int protocol) | Like existing socket syscall, but with the addition of a name argument. |
-| 114 | <=1.01? | sys\_socketclose | \- | \- |
+| 99 |  1.01, 6.72 | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
+| 101 | 1.01, 6.72 | sys\_netabort | \- | \- |
+| 102 | 1.01, 6.72 | sys\_netgetsockinfo | \- | \- |
+| 104 | 6.72 | sys\_bind | \- | \- |
+| 105 | 6.72 | sys\_setsockopt | \- | \- |
+| 106 | 6.72 | sys\_listen | \- | \- |
+| 113 | 1.01, 6.72 | sys\_socketex | int sys\_socketex(const char \*name, int domain, int type, int protocol) | Like existing socket syscall, but with the addition of a name argument. |
+| 114 | 1.01, 6.72 | sys\_socketclose | \- | \- |
+| 116 | 6.72 | sys\_gettimeofday | \- | \- |
 | 125 | <=1.01? | sys\_netgetiflist | \- | \- |
 | 141 | <=1.01? | sys\_kqueueex | \- | \- |
 | 379 | \>1.01 <=1.76? | sys\_mtypeprotect | \- | \- |
