@@ -12,6 +12,9 @@ Contains all symbols in an unfiltered and unsorted state. Basically all symbols 
 ### the directory [sceSymbols(Sorted)/](/sceSymbols(Sorted)/)
 Contains a collection of text files, each representing every symbol starting with **sce**. These files are extracted from [ps4_names.txt](/ps4_names.txt) and contain only the lines of text related to the specific symbol in question, such as, for example, `sceVideo*`, `sceUsb*`, etc.
 
+### the file [syscalls.md](/syscalls.md)
+Contains syscall related info
+
 
 # Credits
 This was mostly made possible thanks to the legend by the name of [zecoxao](https://github.com/zecoxao). Most of the data that you see in this repository came from his repository that you can find here: [zecoxao/sce_symbols](https://github.com/zecoxao/sce_symbols)
