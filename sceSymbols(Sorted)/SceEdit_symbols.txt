@@ -1,0 +1,8 @@
+sceEditMp4Edit
+sceEditMp4GetStatus
+sceEditMp4Initialize
+sceEditMp4InitializeParam
+sceEditMp4QueryMemSize
+sceEditMp4SetFinishCallback
+sceEditMp4Terminate
+sceEditMp4Unite

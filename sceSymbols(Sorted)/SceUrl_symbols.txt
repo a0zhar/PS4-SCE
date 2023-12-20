@@ -1,0 +1,3 @@
+sceUrlConfigResolverGetDefaultQueryParameter
+sceUrlConfigResolverGetDeviceId
+sceUrlConfigResolverGetJscHeapSizeSoftLimit

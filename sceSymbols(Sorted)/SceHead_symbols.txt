@@ -1,0 +1,8 @@
+sceHeadTrackerGetNumberOfRunningInstance
+sceHeadTrackerInitialize
+sceHeadTrackerQueryWorkingMemory
+sceHeadTrackerSearchCandidate
+sceHeadTrackerStart
+sceHeadTrackerStop
+sceHeadTrackerUpdate
+sceHeadTrackerUpdateDebug

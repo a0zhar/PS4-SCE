@@ -1,0 +1,9 @@
+sceFiberGetInfo
+sceFiberGetSelf
+sceFiberOptParamInitialize
+sceFiberRename
+sceFiberReturnToThread
+sceFiberRun
+sceFiberStartContextSizeCheck
+sceFiberStopContextSizeCheck
+sceFiberSwitch

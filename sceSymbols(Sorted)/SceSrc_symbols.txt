@@ -1,0 +1,8 @@
+sceSrcUtilityFlush
+sceSrcUtilityGetDelaySamples
+sceSrcUtilityGetHandleSize
+sceSrcUtilityGetPriority
+sceSrcUtilityInitialize
+sceSrcUtilityInitializeEx
+sceSrcUtilityResample
+sceSrcUtilitySetPriority

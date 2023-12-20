@@ -1,0 +1,7 @@
+sceAc3EncCreateEncoder
+sceAc3EncDeleteEncoder
+sceAc3EncEncode
+sceAc3EncEncodeAsync
+sceAc3EncFlush
+sceAc3EncIsEncoding
+sceAc3EncWaitEncode

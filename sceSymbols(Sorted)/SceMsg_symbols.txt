@@ -1,0 +1,9 @@
+sceMsgDialogGetResult
+sceMsgDialogGetStatus
+sceMsgDialogInitialize
+sceMsgDialogOpen
+sceMsgDialogProgressBarInc
+sceMsgDialogProgressBarSetMsg
+sceMsgDialogProgressBarSetValue
+sceMsgDialogTerminate
+sceMsgDialogUpdateStatus

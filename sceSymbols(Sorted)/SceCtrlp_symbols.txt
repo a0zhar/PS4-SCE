@@ -1,0 +1,9 @@
+sceCtrlpGetMode
+sceCtrlpGetRecData
+sceCtrlpInit
+sceCtrlpPlayStart
+sceCtrlpPlayStop
+sceCtrlpRecStart
+sceCtrlpRecStop
+sceCtrlpRegisterEventCB
+sceCtrlpSetPlayData

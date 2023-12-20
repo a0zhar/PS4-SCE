@@ -1,0 +1,10 @@
+sceAcmBatchStartBuffer
+sceAcmBatchStartBuffers
+sceAcmBatchWait
+sceAcmContextCreate
+sceAcmContextDestroy
+sceAcm_ConvReverb_SharedInput
+sceAcm_ConvReverb_SharedIr
+sceAcm_FFT
+sceAcm_IFFT
+sceAcm_Panner

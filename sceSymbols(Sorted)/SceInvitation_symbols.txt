@@ -1,0 +1,8 @@
+sceInvitationDialogGetResult
+sceInvitationDialogGetResultA
+sceInvitationDialogGetStatus
+sceInvitationDialogInitialize
+sceInvitationDialogOpen
+sceInvitationDialogOpenA
+sceInvitationDialogTerminate
+sceInvitationDialogUpdateStatus

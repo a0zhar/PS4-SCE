@@ -1,0 +1,4 @@
+sceAt9EncCreateEncoder
+sceAt9EncEncode
+sceAt9EncFlush
+sceAt9EncQueryMemSize

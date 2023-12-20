@@ -1,0 +1,2 @@
+sceCompsoitorGetProcessRenderingTime
+sceCompsoitorGetRenderingTime

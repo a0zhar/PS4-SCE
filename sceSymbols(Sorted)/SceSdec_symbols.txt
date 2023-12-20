@@ -1,0 +1,14 @@
+sceSdecCreateSw2
+sceSdecCreateSwHevc
+sceSdecDestroySw
+sceSdecDestroySw2
+sceSdecDestroySwHevc
+sceSdecExecuteSwHevc
+sceSdecGetFrameSwHevc
+sceSdecGetVersionSw
+sceSdecGetVersionSw2
+sceSdecGetVersionSwHevc
+sceSdecQueryMemorySw
+sceSdecQueryMemorySw2
+sceSdecQueryMemorySwHevc
+sceSdecResetSwHevc

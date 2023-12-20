@@ -1,0 +1,6 @@
+sceDeci5CreateHostProcess
+sceDeci5CreateHostProcessAndWait
+sceDeci5GetStatus
+sceDeci5Open
+sceDeci5Read
+sceDeci5Write

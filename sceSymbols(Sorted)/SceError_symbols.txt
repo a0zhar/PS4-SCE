@@ -1,0 +1,7 @@
+sceErrorDialogGetStatus
+sceErrorDialogInitialize
+sceErrorDialogOpen
+sceErrorDialogOpenDetail
+sceErrorDialogOpenWithReport
+sceErrorDialogTerminate
+sceErrorDialogUpdateStatus

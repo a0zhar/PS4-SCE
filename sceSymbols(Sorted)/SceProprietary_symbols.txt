@@ -1,0 +1,3 @@
+sceProprietaryVoiceChatHelperInitialize
+sceProprietaryVoiceChatHelperSetVoiceChatState
+sceProprietaryVoiceChatHelperTerminate

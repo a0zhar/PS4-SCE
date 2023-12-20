@@ -1,0 +1,7 @@
+sceSulphaGetConnectedClientCount
+sceSulphaGetDefaultConfig
+sceSulphaGetNeededMemory
+sceSulphaInit
+sceSulphaMessage
+sceSulphaSetBookmark
+sceSulphaShutdown

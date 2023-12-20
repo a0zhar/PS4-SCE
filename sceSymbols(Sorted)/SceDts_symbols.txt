@@ -1,0 +1,6 @@
+sceDtsEncDeleteEncoder
+sceDtsEncEncode
+sceDtsEncEncodeAsync
+sceDtsEncFlush
+sceDtsEncIsEncoding
+sceDtsEncWaitEncode

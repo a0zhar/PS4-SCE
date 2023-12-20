@@ -1,0 +1,4 @@
+sceWkFontConfigGetFont
+sceWkFontConfigGetFontFromFontName
+sceWkFontConfigGetFontName
+sceWkFontConfigGetFontPath

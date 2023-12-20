@@ -1,0 +1,8 @@
+scePfsGetHeaderReadCommand
+scePfsGetPreadBlockRange
+scePfsGetSingleBlockReadCommand
+scePfsGetUncompressedSize
+scePfsGetWorkBufferSize
+scePfsPread
+scePfsPreadDecompressBlock
+scePfsValidate

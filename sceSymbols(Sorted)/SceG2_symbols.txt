@@ -1,0 +1,6 @@
+sceG2PDialogGetResult
+sceG2PDialogGetStatus
+sceG2PDialogInitialize
+sceG2PDialogOpen
+sceG2PDialogTerminate
+sceG2PDialogUpdateStatus

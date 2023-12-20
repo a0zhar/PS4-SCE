@@ -1,0 +1,11 @@
+sceGpuExceptionAddRazorHandler
+sceGpuExceptionGetStatus
+sceGpuExceptionRemoveDebuggerHandler
+sceGpuExceptionRemoveRazorHandler
+sceGpuTraceCancel
+sceGpuTraceParametersInit
+sceGpuTraceParametersSetDuration
+sceGpuTraceParametersSetGroup
+sceGpuTraceParametersSetMemorySize
+sceGpuTraceStart
+sceGpuTraceStop

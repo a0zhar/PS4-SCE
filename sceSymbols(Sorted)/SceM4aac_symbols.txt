@@ -1,0 +1,16 @@
+sceM4aacEncClearContextEx
+sceM4aacEncCreateEncoder
+sceM4aacEncCreateEncoderEx
+sceM4aacEncDeleteEncoder
+sceM4aacEncDeleteEncoderEx
+sceM4aacEncEncode
+sceM4aacEncEncodeEx
+sceM4aacEncEncodeWithPriority
+sceM4aacEncEncodeWithPriorityEx
+sceM4aacEncFlush
+sceM4aacEncFlushEx
+sceM4aacEncFlushWithPriority
+sceM4aacEncFlushWithPriorityEx
+sceM4aacEncGetContext
+sceM4aacEncInitialize
+sceM4aacEncTerminate

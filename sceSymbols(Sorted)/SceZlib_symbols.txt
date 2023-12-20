@@ -1,0 +1,4 @@
+sceZlibGetResult
+sceZlibInflate
+sceZlibInitialize
+sceZlibWaitForDone

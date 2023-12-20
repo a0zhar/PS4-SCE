@@ -1,0 +1,5 @@
+sceDiscIdGet2
+sceDiscMapBitmapInfoServerStart
+sceDiscMapBitmapInfoServerStop
+sceDiscMapGetPackageSize
+sceDiscMapIsRequestOnHDD

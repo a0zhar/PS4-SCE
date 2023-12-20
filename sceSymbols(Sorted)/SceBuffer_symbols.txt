@@ -1,0 +1,4 @@
+sceBufferDup
+sceBufferFree
+sceBufferInit
+sceBufferRealloc

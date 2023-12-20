@@ -1,0 +1,5 @@
+sceAutoMounterClientGetUsbDeviceList
+sceAutoMounterClientInit
+sceAutoMounterClientRegisterCallback
+sceAutoMounterClientTerm
+sceAutoMounterClientUnregisterCallback

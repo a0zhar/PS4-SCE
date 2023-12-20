@@ -1,0 +1,9 @@
+scePngDecDecode
+scePngDecDecodeWithInputControl
+scePngDecDelete
+scePngDecParseHeader
+scePngDecQueryMemorySize
+scePngEncCreate
+scePngEncDelete
+scePngEncEncode
+scePngEncQueryMemorySize

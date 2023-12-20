@@ -1,0 +1,7 @@
+sceS3dConversionExec
+sceS3dConversionOpen
+sceS3dConversionQueryAttr
+sceS3daClose
+sceS3daGetInfo
+sceS3daOpen
+sceS3daSendData

@@ -1,0 +1,9 @@
+sceDepth2Initialize
+sceDepth2QueryMemory
+sceDepth2SaveInternalBuffers
+sceDepth2SetCameraFactoryCalibrationData
+sceDepth2SetCommand
+sceDepth2SetRoi
+sceDepth2Submit
+sceDepth2Terminate
+sceDepth2WaitAndExecutePostProcess

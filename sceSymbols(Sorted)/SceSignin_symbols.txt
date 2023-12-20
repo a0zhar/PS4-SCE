@@ -1,0 +1,6 @@
+sceSigninDialogGetResult
+sceSigninDialogGetStatus
+sceSigninDialogInitialize
+sceSigninDialogOpen
+sceSigninDialogTerminate
+sceSigninDialogUpdateStatus

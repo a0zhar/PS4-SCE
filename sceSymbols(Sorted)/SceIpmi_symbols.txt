@@ -1,0 +1,4 @@
+sceIpmiMgrGetIpcBlockerPidByAppId
+sceIpmiMgrPauseDump
+sceIpmiMgrRaiseExceptionToPid
+sceIpmiMgrStartDump

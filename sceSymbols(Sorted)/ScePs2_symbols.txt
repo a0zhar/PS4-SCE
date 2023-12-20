@@ -1,0 +1,6 @@
+scePs2EmuMenuDialogGetResult
+scePs2EmuMenuDialogGetStatus
+scePs2EmuMenuDialogInitialize
+scePs2EmuMenuDialogOpen
+scePs2EmuMenuDialogTerminate
+scePs2EmuMenuDialogUpdateStatus

@@ -1,0 +1,9 @@
+sceJpegDecDecode
+sceJpegDecDecodeWithInputControl
+sceJpegDecDelete
+sceJpegDecParseHeader
+sceJpegDecQueryMemorySize
+sceJpegEncCreate
+sceJpegEncDelete
+sceJpegEncEncode
+sceJpegEncQueryMemorySize
