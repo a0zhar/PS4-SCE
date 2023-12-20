@@ -4,18 +4,18 @@ Changes, rewriting of text, and other forms of improvements will be made for thi
 | Syscall ID | PS4 Firmware | Syscall Name | Syscall Usermode prototype | Notes |
 | --- | --- | --- | --- | --- |
 | 99 |  1.01, 6.72 | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
-| 101 | 1.01, 6.72 | sys\_netabort | \- | \- |
-| 102 | 1.01, 6.72 | sys\_netgetsockinfo | \- | \- |
-| 104 | 6.72 | sys\_bind | \- | \- |
-| 105 | 6.72 | sys\_setsockopt | \- | \- |
-| 106 | 6.72 | sys\_listen | \- | \- |
+| 101 | 1.01, 6.72 | sys\_netabort | Unknown atm... | \- |
+| 102 | 1.01, 6.72 | sys\_netgetsockinfo | Unknown atm... | \- |
+| 104 | 6.72 | sys\_bind | Unknown atm... | \- |
+| 105 | 6.72 | sys\_setsockopt | Unknown atm... | \- |
+| 106 | 6.72 | sys\_listen | Unknown atm... | \- |
 | 113 | 1.01, 6.72 | sys\_socketex | int sys\_socketex(const char \*name, int domain, int type, int protocol) | Like existing socket syscall, but with the addition of a name argument. |
-| 114 | 1.01, 6.72 | sys\_socketclose | \- | \- |
-| 116 | 6.72 | sys\_gettimeofday | \- | \- |
-| 125 | <=1.01? | sys\_netgetiflist | \- | \- |
-| 141 | <=1.01? | sys\_kqueueex | \- | \- |
-| 379 | \>1.01 <=1.76? | sys\_mtypeprotect | \- | \- |
-| 532 | <=1.76? | sys\_regmgr\_call | \- | \- |
+| 114 | 1.01, 6.72 | sys\_socketclose | Unknown atm... | \- |
+| 116 | 6.72 | sys\_gettimeofday | Unknown atm... | \- |
+| 125 | <=1.01? | sys\_netgetiflist | Unknown atm... | \- |
+| 141 | <=1.01? | sys\_kqueueex | Unknown atm... | \- |
+| 379 | \>1.01 <=1.76? | sys\_mtypeprotect | Unknown atm... | \- |
+| 532 | <=1.76? | sys\_regmgr\_call | Unknown atm... | \- |
 | 533 | <=1.01? | sys\_jitshm\_create | \- | Only callable from a jit compiler process, else returns EPERM (0x1) |
 | 534 | <=1.01? | sys\_jitshm\_alias | \- | Only callable from a jit compiler/application process, else returns EPERM (0x1) |
 | 535 | <=1.01? | sys\_dl\_get\_list | \- | Only callable from a debugger, core dump, or syscore process, else returns EPERM (0x1) |
@@ -25,72 +25,72 @@ Changes, rewriting of text, and other forms of improvements will be made for thi
 | 539 | <=1.01? | sys\_evf\_delete | int sys\_evf\_delete(int id) | \- |
 | 540 | <=1.01? | sys\_evf\_open | int sys\_evf\_open(struct evFlag \*evf) | \- |
 | 541 | <=1.01? | sys\_evf\_close | int sys\_evf\_close(int id) | \- |
-| 542 | <=1.01? | sys\_evf\_wait | \- | \- |
-| 543 | <=1.01? | sys\_evf\_trywait | \- | \- |
+| 542 | <=1.01? | sys\_evf\_wait | Unknown atm... | \- |
+| 543 | <=1.01? | sys\_evf\_trywait | Unknown atm... | \- |
 | 544 | <=1.01? | sys\_evf\_set | int sys\_evf\_set(int id) | \- |
 | 545 | <=1.01? | sys\_evf\_clear | int sys\_evf\_clear(int id) | \- |
 | 546 | <=1.01? | sys\_evf\_cancel | int sys\_evf\_cancel(int id) | \- |
-| 547 | <=1.01? | sys\_query\_memory\_protection | \- | \- |
-| 548 | <=1.01? | sys\_batch\_map | \- | \- |
-| 549 | <=1.01? | sys\_osem\_create | \- | \- |
-| 550 | <=1.01? | sys\_osem\_delete | \- | \- |
-| 551 | <=1.01? | sys\_osem\_open | \- | \- |
-| 552 | <=1.01? | sys\_osem\_close | \- | \- |
-| 553 | <=1.01? | sys\_osem\_wait | \- | \- |
-| 554 | <=1.01? | sys\_osem\_trywait | \- | \- |
-| 555 | <=1.01? | sys\_osem\_post | \- | \- |
-| 556 | <=1.01? | sys\_osem\_cancel | \- | \- |
-| 557 | <=1.01? | sys\_namedobj\_create | \- | \- |
-| 558 | <=1.01? | sys\_namedobj\_delete | \- | \- |
+| 547 | <=1.01? | sys\_query\_memory\_protection | Unknown atm... | \- |
+| 548 | <=1.01? | sys\_batch\_map | Unknown atm... | \- |
+| 549 | <=1.01? | sys\_osem\_create | Unknown atm... | \- |
+| 550 | <=1.01? | sys\_osem\_delete | Unknown atm... | \- |
+| 551 | <=1.01? | sys\_osem\_open | Unknown atm... | \- |
+| 552 | <=1.01? | sys\_osem\_close | Unknown atm... | \- |
+| 553 | <=1.01? | sys\_osem\_wait | Unknown atm... | \- |
+| 554 | <=1.01? | sys\_osem\_trywait | Unknown atm... | \- |
+| 555 | <=1.01? | sys\_osem\_post | Unknown atm... | \- |
+| 556 | <=1.01? | sys\_osem\_cancel | Unknown atm... | \- |
+| 557 | <=1.01? | sys\_namedobj\_create | Unknown atm... | \- |
+| 558 | <=1.01? | sys\_namedobj\_delete | Unknown atm... | \- |
 | 559 | <=1.01? | sys\_set\_vm\_container | \- | Successful call requires privileges (uid0), else returns EPERM (0x1) |
-| 560 | <=1.01? | sys\_debug\_init | \- | \- |
+| 560 | <=1.01? | sys\_debug\_init | Unknown atm... | \- |
 | 561 | <=1.01? | sys\_suspend\_process | int sys\_suspend\_process(int pid) | Successful call requires credentials (td->td\_proc->p\_ucred), else returns EPERM (0x1) |
 | 562 | <=1.01? | sys\_resume\_process | int sys\_resume\_process(int pid) | Successful call requires credentials (td->td\_proc->p\_ucred), else returns EPERM (0x1) |
-| 563 | <=1.01? | sys\_opmc\_enable | \- | \- |
-| 564 | <=1.01? | sys\_opmc\_disable | \- | \- |
-| 565 | <=1.01? | sys\_opmc\_set\_ctl | \- | \- |
-| 566 | <=1.01? | sys\_opmc\_set\_ctr | \- | \- |
-| 567 | <=1.01? | sys\_opmc\_get\_ctr | \- | \- |
+| 563 | <=1.01? | sys\_opmc\_enable | Unknown atm... | \- |
+| 564 | <=1.01? | sys\_opmc\_disable | Unknown atm... | \- |
+| 565 | <=1.01? | sys\_opmc\_set\_ctl | Unknown atm... | \- |
+| 566 | <=1.01? | sys\_opmc\_set\_ctr | Unknown atm... | \- |
+| 567 | <=1.01? | sys\_opmc\_get\_ctr | Unknown atm... | \- |
 | 568 | <=1.01? | sys\_budget\_create | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
 | 569 | <=1.01? | sys\_budget\_delete | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
 | 570 | <=1.01? | sys\_budget\_get | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
 | 571 | <=1.01? | sys\_budget\_set | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
 | 572 | <=1.01? | sys\_virtual\_query | int sys\_virtual\_query(uint64\_t addr, uint64\_t unk, void \*info, uint64\_t info\_size) | \- |
 | 573 | <=1.01? | sys\_mdbg\_call | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
-| 574 | <=1.01? | sys\_sblock\_create | \- | \- |
-| 575 | <=1.01? | sys\_sblock\_delete | \- | \- |
-| 576 | <=1.01? | sys\_sblock\_enter | \- | \- |
-| 577 | <=1.01? | sys\_sblock\_exit | \- | \- |
-| 578 | <=1.01? | sys\_sblock\_xenter | \- | \- |
-| 579 | <=1.01? | sys\_sblock\_xexit | \- | \- |
-| 580 | <=1.01? | sys\_eport\_create | \- | \- |
-| 581 | <=1.01? | sys\_eport\_delete | \- | \- |
-| 582 | <=1.01? | sys\_eport\_trigger | \- | \- |
-| 583 | <=1.01? | sys\_eport\_open | \- | \- |
-| 584 | <=1.01? | sys\_eport\_close | \- | \- |
-| 585 | <=1.01? | sys\_is\_in\_sandbox | \- | \- |
+| 574 | <=1.01? | sys\_sblock\_create | Unknown atm... | \- |
+| 575 | <=1.01? | sys\_sblock\_delete | Unknown atm... | \- |
+| 576 | <=1.01? | sys\_sblock\_enter | Unknown atm... | \- |
+| 577 | <=1.01? | sys\_sblock\_exit | Unknown atm... | \- |
+| 578 | <=1.01? | sys\_sblock\_xenter | Unknown atm... | \- |
+| 579 | <=1.01? | sys\_sblock\_xexit | Unknown atm... | \- |
+| 580 | <=1.01? | sys\_eport\_create | Unknown atm... | \- |
+| 581 | <=1.01? | sys\_eport\_delete | Unknown atm... | \- |
+| 582 | <=1.01? | sys\_eport\_trigger | Unknown atm... | \- |
+| 583 | <=1.01? | sys\_eport\_open | Unknown atm... | \- |
+| 584 | <=1.01? | sys\_eport\_close | Unknown atm... | \- |
+| 585 | <=1.01? | sys\_is\_in\_sandbox | Unknown atm... | \- |
 | 586 | <=1.01? | sys\_dmem\_container | \- | Successful call requires privileges (uid0), else returns EPERM (0x1) |
 | 587 | <=1.01? | sys\_get\_authinfo | \- | Some functionality requires privileges (uid0) |
-| 588 | <=1.01? | sys\_mname | \- | \- |
+| 588 | <=1.01? | sys\_mname | Unknown atm... | \- |
 | 589 | <=1.01? | sys\_dynlib\_dlopen | \- | Always returns ENOSYS (0x4E) (may only be implemented in devkits) |
-| 590 | <=1.01? | sys\_dynlib\_dlclose | \- | \- |
+| 590 | <=1.01? | sys\_dynlib\_dlclose | Unknown atm... | \- |
 | 591 | <=1.01? | sys\_dynlib\_dlsym | int sys\_dynlib\_dlsym(SceKernelModule handle, const char \*symbol, void \*\*addrp) | \- |
 | 592 | <=1.01? | sys\_dynlib\_get\_list | int sys\_dynlib\_get\_list(SceKernelModule \*pArray, size\_t numArray, size\_t \* pActualNum) | \- |
 | 593 | <=1.01? | sys\_dynlib\_get\_info | int sys\_dynlib\_get\_info(SceKernelModule handle, SceDbgModuleInfo \*pInfo) | Sony has stripped module information since 1.76 FW (STO) \* |
 | 594 | <=1.01? | sys\_dynlib\_load\_prx | int sys\_dynlib\_load\_prx(const char \*moduleFileName, size\_t args, const void \*argp, uint32\_t flags, const SceKernelLoadModuleOpt \*pOpt, int \*pRes) | \- |
 | 595 | <=1.01? | sys\_dynlib\_unload\_prx | int sys\_dynlib\_unload\_prx(SceKernelModule handle, size\_t args, const void \*argp, uint32\_t flags, const SceKernelUnloadModuleOpt \*pOpt, int \*pRes) | \- |
-| 596 | <=1.01? | sys\_dynlib\_do\_copy\_relocations | \- | \- |
+| 596 | <=1.01? | sys\_dynlib\_do\_copy\_relocations | Unknown atm... | \- |
 | 597 | <=1.01? | sys\_dynlib\_prepare\_dlclose | \- | Contains an exploitable integer overflow on FWs <= 1.76 |
-| 598 | <=1.01? | sys\_dynlib\_get\_proc\_param | \- | \- |
-| 599 | <=1.01? | sys\_dynlib\_process\_needed\_and\_relocate | \- | \- |
+| 598 | <=1.01? | sys\_dynlib\_get\_proc\_param | Unknown atm... | \- |
+| 599 | <=1.01? | sys\_dynlib\_process\_needed\_and\_relocate | Unknown atm... | \- |
 | 600 | <=1.01? | sys\_sandbox\_path | \- | Successful call requires credentials (td->td\_proc->p\_ucred), else returns EPERM (0x1) |
-| 601 | <=1.01? | sys\_mdbg\_service | \- | \- |
+| 601 | <=1.01? | sys\_mdbg\_service | Unknown atm... | \- |
 | 602 | <=1.01? | sys\_randomized\_path | \- | Some functionality requires privileges (uid0) |
 | 603 | <=1.01? | sys\_rdup | \- | Successful call requires privileges (uid0), else returns EPERM (0x1) |
 | 604 | <=1.01? | sys\_dl\_get\_metadata | \- | Only callable from a debugger, core dump, or syscore process, else returns EPERM (0x1) |
-| 605 | <=1.01? | sys\_workaround8849 | \- | \- |
-| 606 | <=1.01? | sys\_is\_development\_mode | \- | \- |
-| 607 | <=1.01? | sys\_get\_self\_auth\_info | \- | \- |
+| 605 | <=1.01? | sys\_workaround8849 | Unknown atm... | \- |
+| 606 | <=1.01? | sys\_is\_development\_mode | Unknown atm... | \- |
+| 607 | <=1.01? | sys\_get\_self\_auth\_info | Unknown atm... | \- |
 | 608 | <=1.01? | sys\_dynlib\_get\_info\_ex | int sys\_dynlib\_get\_info\_ex(int moduleHandle, struct Unk \*unk, int \*destModuleInfoEx) | \- |
 | 609 | <=1.01? | sys\_budget\_getid | int sys\_budget\_getid(void) | Successful call requires credentials (td->td\_proc->p\_ucred), else returns ENOSYS (0x4E) |
 | 610 | <=1.01? | sys\_budget\_get\_ptype | int sys\_budget\_get\_ptype(int budgetID) | \- |
