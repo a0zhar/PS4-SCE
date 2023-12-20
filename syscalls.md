@@ -1,3 +1,6 @@
+# Source for the table below: [psdevwiki.com](https://www.psdevwiki.com/ps4/Syscalls)
+### But i will personally confirm whether, the syscall id's below works for the firmware version of 6.72. And then i will update the contents of each (PS4 FW Version) row, to say if it's the same for 6.72, as well as the Syscall name to be better looking, and more... 
+
 | Syscall ID | PS4 FW Version | Syscall name | Syscall usermode prototype | Notes |
 | --- | --- | --- | --- | --- |
 | 99 |  <=1.01? | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
