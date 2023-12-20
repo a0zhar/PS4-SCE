@@ -1,9 +1,9 @@
-# PS4System
-A Collection of anything related to the Playstation 4 Operating System... Such as:
-- Syscalls and their respective syscall number
-- SCE Symbols (like for example: system functions)
+# SCE (Names and Symbols) for PS4
+## A Collection of anything related to the Playstation 4 Operating System... Such as:
+- Syscall's (name and their syscall number)
+- Names and Symbols from PS4 SCE
+  - Non Sorted, and Sorted
 - And more!
-
 
 # Breakdown of the Files/Directories in this Repository
 ### [ps4_names.txt](/ps4_names.txt)
