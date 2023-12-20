@@ -6,11 +6,11 @@
 - And more!
 
 # Breakdown of the Files/Directories in this Repository
-### [ps4_names.txt](/ps4_names.txt)
-- Contains all symbols in an unfiltered and unsorted state. Basically all symbols in one file (very large!!! open it as **raw**).
+### the file [ps4_names.txt](/ps4_names.txt)
+Contains all symbols in an unfiltered and unsorted state. Basically all symbols in one file (very large!!! open it as **raw**).
 
-### [sceSymbols(Sorted)/](/sceSymbols(Sorted)/):
-- Contains a collection of text files, each representing every symbol starting with **sce**. These files are extracted from [ps4_names.txt](/ps4_names.txt) and contain only the lines of text related to the specific symbol in question, such as, for example, `sceVideo*`, `sceUsb*`, etc.
+### the directory [sceSymbols(Sorted)/](/sceSymbols(Sorted)/)
+Contains a collection of text files, each representing every symbol starting with **sce**. These files are extracted from [ps4_names.txt](/ps4_names.txt) and contain only the lines of text related to the specific symbol in question, such as, for example, `sceVideo*`, `sceUsb*`, etc.
 
 
 # Credits
