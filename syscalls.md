@@ -1,6 +1,7 @@
 # Source for the table below: [psdevwiki.com](https://www.psdevwiki.com/ps4/Syscalls)
 Changes, rewriting of text, and other forms of improvements will be made for this table. Such as for example: confirmation of whether or not the syscall ID is accurate for higher firmwares such as 6.72, 7.02, 7.55, 9.00, additional notes, etc.
 
+# NETWORK RELATED
 | Syscall ID | PS4 Firmware | Syscall Name | Syscall Usermode prototype | Notes |
 | --- | --- | --- | --- | --- |
 | 99 |  1.01, 6.72 | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
@@ -11,6 +12,10 @@ Changes, rewriting of text, and other forms of improvements will be made for thi
 | 106 | 6.72 | sys\_listen | int sys\_listen(int unk1, int unk2) | \- |
 | 113 | 1.01, 6.72 | sys\_socketex | int sys\_socketex(const char \*name, int domain, int type, int protocol) | Like existing socket syscall, but with the addition of a name argument. |
 | 114 | 1.01, 6.72 | sys\_socketclose | int sys\_socketclose(int unk1) | \- |
+
+# OTHER (UNFINISHED)
+| Syscall ID | PS4 Firmware | Syscall Name | Syscall Usermode prototype | Notes |
+| --- | --- | --- | --- | --- |
 | 116 | 6.72 | sys\_gettimeofday | Unknown atm... | \- |
 | 125 | <=1.01? | sys\_netgetiflist | Unknown atm... | \- |
 | 141 | <=1.01? | sys\_kqueueex | Unknown atm... | \- |
