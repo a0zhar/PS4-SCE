@@ -6,11 +6,11 @@ Changes, rewriting of text, and other forms of improvements will be made for thi
 | 99 |  1.01, 6.72 | sys\_netcontrol | int sys\_netcontrol(int fd, uint op, void \*buf, uint nbuf) | \- |
 | 101 | 1.01, 6.72 | sys\_netabort | Unknown atm... | \- |
 | 102 | 1.01, 6.72 | sys\_netgetsockinfo | Unknown atm... | \- |
-| 104 | 6.72 | sys\_bind | Unknown atm... | \- |
+| 104 | 6.72 | sys\_bind | int sys\_bind(int unk1, struct sockaddr * unk2, int unk3) | \- |
 | 105 | 6.72 | sys\_setsockopt | Unknown atm... | \- |
-| 106 | 6.72 | sys\_listen | Unknown atm... | \- |
+| 106 | 6.72 | sys\_listen | int sys\_listen(int unk1, int unk2) | \- |
 | 113 | 1.01, 6.72 | sys\_socketex | int sys\_socketex(const char \*name, int domain, int type, int protocol) | Like existing socket syscall, but with the addition of a name argument. |
-| 114 | 1.01, 6.72 | sys\_socketclose | Unknown atm... | \- |
+| 114 | 1.01, 6.72 | sys\_socketclose | int sys\_socketclose(int unk1) | \- |
 | 116 | 6.72 | sys\_gettimeofday | Unknown atm... | \- |
 | 125 | <=1.01? | sys\_netgetiflist | Unknown atm... | \- |
 | 141 | <=1.01? | sys\_kqueueex | Unknown atm... | \- |
